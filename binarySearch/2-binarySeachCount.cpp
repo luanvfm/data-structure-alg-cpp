@@ -1,7 +1,7 @@
 #include <iostream>
 
 int binarySearch(int vetor[], int tamanho, int valorProcurado){
-    int inicio = 0, fim = tamanho - 1, meio, ctr = 1;
+    int inicio = 0, fim = tamanho - 1, meio, ctr = 0;
     while (inicio <= fim) {
         meio = (inicio + fim) / 2;
         ctr++;
