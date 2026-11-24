@@ -6,7 +6,7 @@ using namespace std;
 
 int buscaSequencial(int vetor[], int tamanho, int valorProcurado){
     tamanho = tamanho - 1; // tamanho é o tamanho recebido -1
-    int ctr = 0;
+    int ctr = 1;
 
     for(int i = 0; i < tamanho; i++) {
         if (vetor[i] == valorProcurado){
